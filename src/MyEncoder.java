@@ -22,19 +22,8 @@ public class MyEncoder {
 			sc.close();
 			return;
 		}
-			
-		decodedText = decode.decode(encodedText);
-		System.out.print("Encoded Text: ");
-		System.out.println(encodedText);
-		System.out.print("Decoded Text: ");
-		System.out.println(decodedText);
-		
-		sc.close();
-		
-		
-		
-		
-		
+
+		//Removed to public - Shan Wen
 	}
 
 }
